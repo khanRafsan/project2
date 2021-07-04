@@ -24,7 +24,14 @@ top: 0;
 .nav-items a{
      padding: 10px;
 font-weight:700 ;
+color: cadetblue;
+text-decoration: none;
 }
+.nav-items a:hover{
+     color: black;
+     
+}
+
 
 
 
@@ -117,3 +124,8 @@ footer a{
      padding:10px;
 }
 
+@media screen and (max-width:700px) {
+     body{
+          background-color: blanchedalmond;
+     }     
+     }

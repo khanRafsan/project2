@@ -1,0 +1,9 @@
+header{
+     background-color: brown;
+
+}
+nav > .nav-items{
+     flex-direction: column;
+}
+
+
