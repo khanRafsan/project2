@@ -124,8 +124,25 @@ footer a{
      padding:10px;
 }
 
-@media screen and (max-width:700px) {
-     body{
-          background-color: blanchedalmond;
-     }     
-     }
+.dropdown-container{
+     display:inline;
+position: relative;
+}
+
+
+.dropdown-content{
+     position: absolute;
+top: 30px;
+left:0;
+font-weight: 700;
+
+min-width: 100px;
+display: none;
+}
+
+.dropdown-content a{
+     display:block;
+}
+.dropdown-container:hover .dropdown-content{
+     display:block;
+}
